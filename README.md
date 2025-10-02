@@ -84,7 +84,7 @@ This script will:
 
 * Install dependencies
 * Run build (if any)
-* Deploy to Firebase Hosting / Heroku / your target environment
+* Deploy to Firebase Hosting / Heroku / target environment
 
 ---
 
