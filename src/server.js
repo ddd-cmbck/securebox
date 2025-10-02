@@ -1,8 +1,11 @@
 const express = require('express');
+const {auth, storage} = require('../config/firebase');
+
+
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("SecureBox is running");
+    res.send("SecureBox is running with Firebase!");
 });
 
 app.listen(3000, () => {
